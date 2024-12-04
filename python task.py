@@ -29,4 +29,3 @@ def mood_tracker():
 
 # Run the Mood Tracker
 mood_tracker()
-#teat
