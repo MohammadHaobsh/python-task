@@ -1,5 +1,5 @@
 def mood_tracker():
-    print("welcome to the Mood Tracker!")
+    print("Welcome to the Mood Tracker!")
     print("Input your mood each day (e.g., happy, sad, stressed, etc.).")
     
     days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
@@ -26,3 +26,6 @@ def mood_tracker():
         print(f"{mood.capitalize()}: {percentage:.2f}%")
     
     print("\nThank you for using the Mood Tracker!")
+
+# Run the Mood Tracker
+mood_tracker()
